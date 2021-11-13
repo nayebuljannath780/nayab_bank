@@ -1,6 +1,11 @@
 body{
     padding: 100px;
 }
+.logo img{ 
+    height: 100%;
+    width: 100%;
+    padding: 8%;
+}
 .submit_area{
     margin: 40px 20px;
     border-radius: 30px;

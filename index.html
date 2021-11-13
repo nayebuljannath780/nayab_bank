@@ -15,14 +15,29 @@
 <body>
     <div id="login_area">
         <h1 class="text-center">Welcome to Nayab Bank</h1>
-        <div class="submit_area">
-            <h4>Login</h4>
-            <input type="email" class="form-control" placeholder="email">
-            <br>
-            <input type="password" class="form-control" placeholder="password">
-            <br>
-            <button id="login_btn" class="btn btn-success">Enter</button>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="logo">
+                        <img src="bank.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="submit_area">
+                        <h4>Login</h4>
+                        <input type="email" class="form-control" placeholder="email">
+                        <br>
+                        <input type="password" class="form-control" placeholder="password">
+                        <br>
+                        <button id="login_btn" class="btn btn-success">Enter</button>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+
     </div>
     <div id="transaction_area">
         <div class="row">
@@ -50,7 +65,8 @@
             <div class="col-md-6">
                 <div class="submit_area">
                     <h4>Deposit</h4>
-                    <input type="text" id="deposit_amount" class=" form-control" placeholder="$ amount you want to deposit">
+                    <input type="text" id="deposit_amount" class=" form-control"
+                        placeholder="$ amount you want to deposit">
                     <br>
                     <button id="addDeposit" class="btn btn-success">Deposit</button>
                 </div>
@@ -58,7 +74,8 @@
             <div class="col-md-6">
                 <div class="submit_area">
                     <h4>Withdraw</h4>
-                    <input id="withdraw_amount" type="text" class="form-control" placeholder="$ amount you want to withdraw">
+                    <input id="withdraw_amount" type="text" class="form-control"
+                        placeholder="$ amount you want to withdraw">
                     <br>
                     <button id="addWithdraw" class="btn btn-success">Withdraw</button>
                 </div>
